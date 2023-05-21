@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-box {
+    width: 500px;
+    height: auto;
+    background-color: rgb(238, 237, 237);
+    border-radius: 10px;
+}
+
+#quote-text {
+    color: green;
+    font-size: 10px;
+    font-family: 'Dancing Script', cursive;
+    padding: 25px 50px;
+}
+
+#text {
+    text-align: center;
+    font-size: 4em;
+}
+
+#author {
+    text-align: right;
+    width: 450px;
+    display: block;
+    font-size: 1.1rem;
+    font-family: 'Dancing Script', cursive;
+    color: green;
+}
+
+#new-quote {
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+    border-radius: 5px;
+    border: 0;
+    background-color: green;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#buttons {
+    width: 410px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-twitter, .fa-telegram {
+    width: 40px;
+    height: 40px;
+    border: 0;
+    color: aliceblue;
+    background-color: green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+#creator {
+    width: fit-content;
+    display: block;
+    margin: 10px auto;
+    color: green
+}
