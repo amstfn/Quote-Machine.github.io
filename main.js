@@ -58,7 +58,7 @@ $(document).ready(function () {
             $(this).text(`“${quotes[randomIndex].quote}`).fadeTo(300, 1);
         });
         $("#author").fadeTo(300, 0, function() {
-            $(this).text(`-${quotes[randomIndex].author}`).fadeto(300, 1);
+            $(this).text(`-${quotes[randomIndex].author}`).fadeTo(300, 1);
         })
 
         $(".wrapper").animate({
